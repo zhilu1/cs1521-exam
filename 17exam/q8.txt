@@ -1,0 +1,29 @@
+Q8 COMP1521 17s2 Final Exam
+
+A.
+
+#include                //this one does not include anything
+#include "mylib.h"      //this one include the local header file "mylib.h"
+
+B.
+
+/home/jas/cs1521/week05
+if there is such directory and I have the permission to access this directory
+
+C.
+
+i)
+I can enter this directory, which is 
+cd /home/jas/cs1521/q3
+
+ii)
+I can enter this directory, which is 
+cd /home/jas/cs1521/q3
+
+iii)
+I can enter this directory, which is 
+cd /home/jas/cs1521/q3
+and view files in this directoy, which is 
+ls /home/jas/cs1521/q3
+and save some files into this directory,
+and remove, copy or rename this directory

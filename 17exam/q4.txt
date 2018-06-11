@@ -1,0 +1,37 @@
+Q4 COMP1521 17s2 Final Exam
+
+A.
+
+i)   42
+
+ii)  -5
+
+iii) '&'
+
+iv)  '~'
+
+v)   2
+
+vi)  -0.5
+
+B.
+
+i)   74 bytes
+
+ii)  
+The order with smallest size for Record objects is:
+
+    float WAM;           // e.g. 90.5
+    int   id;            // e.g. 5123456
+    int   uoc_done;      // e.g. 96
+    char  givens[20];    // e.g. "John"
+    char  family[20];    // e.g. "Shepherd"
+    char  status;        // e.g. 'F' or 'P'
+    char  gender;        // e.g. 'M' or 'F' or '?'
+    char  major[6];      // e.g. "ComSc" or "SoEng"
+
+The smallest size will be 64 bytes
+
+C.
+
+8 bytes

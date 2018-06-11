@@ -1,0 +1,23 @@
+Q7 COMP1521 17s2 Final Exam
+
+A.
+
+i)    0x3FFF
+
+ii)   0xA710
+
+iii)  Page Fault
+
+iv)   0x002A
+
+B. why is there empty??
+
+i)    7 entires,
+     because there is 7 pages in Process Address Space (empty is not taken into account)
+
+ii)   
+    5 entries, since there is 5 pages currently loaded into physical address space
+
+iii)  the [2] page in physical address space is likely to be the next replaced,
+ because in FIFO strategy, the empty space should be occupied first.
+

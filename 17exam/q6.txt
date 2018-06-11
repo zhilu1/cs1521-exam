@@ -1,0 +1,36 @@
+Q6 COMP1921 17s2 Final Exam
+
+A.
+on 32-bits machine, where both int type and pointer occupy 4 bytes:
+sizeof(Node) = 8 bytes
+
+B.
+
+when there is not enough space in memory
+
+C.
+
+Node *L; // is set to list shown on diagram
+
+// code to convert Before ...
+
+    Node *new = malloc(sizeof(Node));
+    new->value = 5;
+    new->next = L->next;
+    L->next = new;
+
+// ... into After
+
+
+
+D.
+
+void freeNodes(Node *L) {
+    if(L == NULL){
+        return;
+    }
+    else{
+        freeNodes(L->next);
+        free(L);
+    }
+}

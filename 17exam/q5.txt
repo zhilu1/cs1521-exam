@@ -1,0 +1,29 @@
+Q5 COMP1521 17s2 Final Exam
+
+A.
+
+i)    0000 0000
+
+ii)   1011 1111
+
+iii)  1111 1111
+
+iv)   0000 0000
+
+v)    1011 1101
+
+vi)   0000 0011
+
+vii)  0000 0000
+
+viii) 0000 1111
+
+B.
+
+i)    O_RDWR | O_APPEND
+
+ii)   O_WRONLY | O_CREAT
+
+iii)  O_WRONLY | O_TRUNC | O_CREAT
+
+iv)   O_WRONLY
