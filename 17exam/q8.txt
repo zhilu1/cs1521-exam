@@ -17,8 +17,7 @@ I can enter this directory, which is
 cd /home/jas/cs1521/q3
 
 ii)
-I can enter this directory, which is 
-cd /home/jas/cs1521/q3
+can "cd" into the directory, can run "ls", cannot create/remove files
 
 iii)
 I can enter this directory, which is 

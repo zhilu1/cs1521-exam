@@ -1,0 +1,6 @@
+A. Address = 0x10010004; $t0 = 666
+B. Address = 0x10010004; $t0 = 0
+A. Address = 0x10010004; $t0 = 666
+A. Address = 0x10010008; $t0 = 1
+A. Address = 0x10010010; $t0 = 5
+

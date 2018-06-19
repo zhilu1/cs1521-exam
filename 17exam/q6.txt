@@ -6,7 +6,8 @@ sizeof(Node) = 8 bytes
 
 B.
 
-when there is not enough space in memory
+heap fills up (collides with stack)
+heap is corrupted from earlier misuse of pointers
 
 C.
 
@@ -15,7 +16,7 @@ Node *L; // is set to list shown on diagram
 // code to convert Before ...
 
     Node *new = malloc(sizeof(Node));
-    new->value = 5;
+    new->value = 4;
     new->next = L->next;
     L->next = new;
 

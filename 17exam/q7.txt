@@ -12,8 +12,8 @@ iv)   0x002A
 
 B. why is there empty??
 
-i)    7 entires,
-     because there is 7 pages in Process Address Space (empty is not taken into account)
+i)    8 entires,
+    
 
 ii)   
     5 entries, since there is 5 pages currently loaded into physical address space

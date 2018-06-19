@@ -10,13 +10,13 @@ iii) '&'
 
 iv)  '~'
 
-v)   2
+v)   10
 
-vi)  -0.5
+vi)  -1.5
 
 B.
 
-i)   74 bytes
+i)   68 bytes
 
 ii)  
 The order with smallest size for Record objects is:
@@ -26,11 +26,12 @@ The order with smallest size for Record objects is:
     int   uoc_done;      // e.g. 96
     char  givens[20];    // e.g. "John"
     char  family[20];    // e.g. "Shepherd"
+    char  major[6];      // e.g. "ComSc" or "SoEng"
     char  status;        // e.g. 'F' or 'P'
     char  gender;        // e.g. 'M' or 'F' or '?'
-    char  major[6];      // e.g. "ComSc" or "SoEng"
 
-The smallest size will be 64 bytes
+
+The smallest size will be 60 bytes
 
 C.
 

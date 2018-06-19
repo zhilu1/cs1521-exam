@@ -1,0 +1,5 @@
+A. n = 3 a=42, b=64, c=99
+B. n = 2 a=42, b=64, c contains some garbage number
+C. n = 2 a=42, b=64, c contains some garbage number
+D. n = 1 a=42, b and c contain some garbage number
+E. n = 0 a,b and c contain some garbage number
